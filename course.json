@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "title": "示例课程",
+  "author": "GitCourse",
+  "description": "不同实验环境示例课程",
+  "scenarios": [
+    {
+      "title": "C/C++语言环境",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "C语言环境",
+          "text": "setup/1.md"
+        }
+      ]
+    },
+    {
+      "title": "Python环境",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python",
+      "steps": [
+        {
+          "title": "Python环境",
+          "text": "setup/2.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3环境",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3环境",
+          "text": "setup/3.md"
+        }
+      ]
+    },
+    {
+      "title": "JS环境",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:node",
+      "steps": [
+        {
+          "title": "JS环境",
+          "text": "setup/4.md"
+        }
+      ]
+    },
+    {
+      "title": "Shell环境",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "steps": [
+        {
+          "title": "Shell环境",
+          "text": "setup/5.md"
+        }
+      ]
+    }
+  ]
+}
